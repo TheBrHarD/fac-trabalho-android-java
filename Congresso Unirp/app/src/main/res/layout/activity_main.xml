@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.congressounirp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-70dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_margin="50px"
+            android:gravity="center"
+            android:src="@drawable/logounirp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:padding="15dp"
+            android:text="Opções"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCadastrarAval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/retangulo_edit2"
+            android:padding="20dp"
+            android:text="Cadastrar um avaliador"
+            android:textColor="@color/azcl"
+            android:textStyle="bold"
+            app:backgroundTint="#C6C6C6" />
+
+        <Button
+            android:id="@+id/btnCadastrarTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/retangulo_edit2"
+            android:padding="20dp"
+            android:text="Cadastrar um trabalho"
+            android:textColor="@color/azcl"
+            android:textStyle="bold"
+            app:backgroundTint="#C6C6C6" />
+
+        <Button
+            android:id="@+id/btnListarTrab"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/retangulo_edit2"
+            android:padding="20dp"
+            android:text="Lista de Trabalhos"
+            android:textColor="@color/azcl"
+            android:textStyle="bold"
+            app:backgroundTint="#C6C6C6" />
+
+        <Button
+            android:id="@+id/btnAvaliarApresTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/retangulo_edit2"
+            android:padding="20dp"
+            android:text="Avaliar NOTA DE apresentação"
+            android:textColor="@color/azcl"
+            android:textStyle="bold"
+            app:backgroundTint="#C6C6C6" />
+
+        <Button
+            android:id="@+id/btnAvaliarResumoTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/retangulo_edit2"
+            android:padding="20dp"
+            android:text="Avaliar NOTA DE RESUMO"
+            android:textColor="@color/azcl"
+            android:textStyle="bold"
+            app:backgroundTint="#C6C6C6" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

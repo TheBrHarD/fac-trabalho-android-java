@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="areaAval">
+            <item>Biológicas e Agrárias</item>
+            <item>Exatas</item>
+            <item>Humanas</item>
+            <item>Saúde</item>
+        </string-array>
+
+        <string-array name="categoria">
+            <item>Graduação</item>
+            <item>Pós-graduação</item>
+        </string-array>
+
+</resources>

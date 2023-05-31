@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.congressounirp.view.CadastrarAvaliador">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_margin="50px"
+                android:gravity="center"
+                android:src="@drawable/logounirp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastro de Avaliador"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:background="@color/blue"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edtCodAval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Código do Avaliador... "
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/edtNomeAval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome completo..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <EditText
+                android:id="@+id/edtEmailAval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-mail... "
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/edtCelularAval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Número de Celular..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/edtCursoAval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Curso..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <Spinner
+                android:id="@+id/spnAreaAval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Área..."
+                android:padding="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <Button
+                android:id="@+id/btnCadastrarAval"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="@color/blue"
+                android:padding="18dp"
+                android:text="Cadastrar" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

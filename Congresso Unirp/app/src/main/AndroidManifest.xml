@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.congressounirp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CongressoUNIRP">
+        <activity
+            android:name=".view.Procurar_Aval_Resumo"
+            android:exported="true" />
+        <activity
+            android:name=".view.Procurar_Trabalhos"
+            android:exported="true" />
+        <activity
+            android:name=".view.Procurar_Aval_Apresentacao"
+            android:exported="false" />
+        <activity
+            android:name=".view.ListarTrabalhos"
+            android:exported="false" />
+        <activity
+            android:name=".view.AvaliarApresentacaoTrabalho"
+            android:exported="false" />
+        <activity
+            android:name=".view.AvaliarResumoTrabalho"
+            android:exported="false" />
+        <activity
+            android:name=".view.CadastrarTrabalho"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.CadastrarAvaliador"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

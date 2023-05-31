@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.congressounirp.view.AvaliarApresentacaoTrabalho">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_margin="50px"
+                android:gravity="center"
+                android:src="@drawable/logounirp" />
+
+
+                <TextView
+                    android:id="@+id/txtSiglaNoApres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp"
+                    android:text="Sigla"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtTituloTrabApres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp"
+                    android:text="Título"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Nota da apresentação:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtNotaApres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Somentes notas de 5 a 10.."
+                android:inputType="numberDecimal"
+                android:padding="20dp"
+                android:background="@drawable/retangulo_edit"
+                android:textColor="@color/gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Nota do poster:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtNotaPoster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Somentes notas de 5 a 10.."
+                android:inputType="numberDecimal"
+                android:padding="20dp"
+                android:background="@drawable/retangulo_edit"
+                android:textColor="@color/gray"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnSalvarNotaApres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/blue"
+                android:text="Avaliar"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/blue" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

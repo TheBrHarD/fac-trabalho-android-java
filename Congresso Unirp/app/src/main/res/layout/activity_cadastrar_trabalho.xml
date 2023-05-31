@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.congressounirp.view.CadastrarTrabalho">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_margin="50px"
+                android:gravity="center"
+                android:src="@drawable/logounirp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:padding="15dp"
+                android:text="Cadastro de Trabalho"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtSiglaNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sigla e o Número..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <Spinner
+                android:id="@+id/spnCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <EditText
+                android:id="@+id/edtInstituicao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Instituição..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <EditText
+                android:id="@+id/edtAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Autor..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <EditText
+                android:id="@+id/edtOrientador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Orientador..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18dp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+            <EditText
+                android:id="@+id/edtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Título..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+
+
+            <EditText
+                android:id="@+id/edtCodigoAvalResuno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Código do avaliador do resumo..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/edtCodigoAvalApres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Código do avaliador de apresentação..."
+                android:background="@drawable/retangulo_edit"
+                android:textSize="18sp"
+                android:padding="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:inputType="numberDecimal"/>
+
+
+            <Button
+                android:id="@+id/btnCadastrarTrab"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="@color/blue"
+                android:padding="18dp"
+                android:text="Cadastrar" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
